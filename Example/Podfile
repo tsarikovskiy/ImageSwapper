@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ImageSwapper_Example' do
+  pod 'ImageSwapper', :path => '../'
+
+  target 'ImageSwapper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
