@@ -26,7 +26,6 @@ TODO: Add long description of the pod here.
   s.author           = { 'Serg Tsarikovskiy' => 'sergtsarikovskiy@gmail.com' }
   s.source           = { :git => 'https://github.com/tsarikovskiy/ImageSwapper.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/s_tsarikovskiy'
-  s.xcconfig = { 'SWIFT_VERSION' => '3.2' }
   s.ios.deployment_target = '9.0'
   s.source_files = 'ImageSwapper/Classes/**/*'
   
