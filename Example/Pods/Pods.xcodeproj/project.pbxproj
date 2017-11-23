@@ -13,7 +13,7 @@
 		5C72655E31E3A76D11405707C1144E3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8A9AF729F8B5865EDBDA77741906CA67 /* ImageSwapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60656B12C952FD27F18B074488117674 /* ImageSwapper-dummy.m */; };
 		9ED8CAFFAB35053AA220B5910E691D60 /* Pods-ImageSwapper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9FE22E4C7AE4CD611B0B7F96EFAFCE0 /* Pods-ImageSwapper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F6981D755202BF18FE3B7992C096198 /* ImageSwaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B739E9A2654C405BA66060D2C0EE0C8 /* ImageSwaper.swift */; };
+		9F6981D755202BF18FE3B7992C096198 /* ImageSwapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B739E9A2654C405BA66060D2C0EE0C8 /* ImageSwapper.swift */; };
 		BE1BC3EDD6FEE0D82C1D695707EF90FE /* Pods-ImageSwapper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F0FF896B2BE27F4D6252283711BD64 /* Pods-ImageSwapper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5F1A895A7F4ED34B5CA61654439A6F5 /* ImageSwapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 979038745E4BB36ECC77524A588DE7AF /* ImageSwapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFE0EA412E01ABCA9F3A2811D969ABE3 /* Pods-ImageSwapper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A86745AC2860B9C405322F8058EBE4F /* Pods-ImageSwapper_Example-dummy.m */; };
@@ -31,16 +31,16 @@
 
 /* Begin PBXFileReference section */
 		01D8FAF86A4C2943C0D8EC02B55BC372 /* Pods-ImageSwapper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageSwapper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		04B664866079E1999B45028BFEA937D0 /* Pods_ImageSwapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageSwapper_Example.framework; path = "Pods-ImageSwapper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B664866079E1999B45028BFEA937D0 /* Pods_ImageSwapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageSwapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0529A33F57C06AEBFBD52A7FFC9A9E7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18696C826902807DEF4614BF86DAC578 /* Pods_ImageSwapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageSwapper_Tests.framework; path = "Pods-ImageSwapper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18696C826902807DEF4614BF86DAC578 /* Pods_ImageSwapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageSwapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FAD65EE38CB34DA3CAB23466A7BDF32 /* Pods-ImageSwapper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageSwapper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		295E71B7AA1B1E7D77164359B10B29CF /* ImageSwapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ImageSwapper.modulemap; sourceTree = "<group>"; };
+		295E71B7AA1B1E7D77164359B10B29CF /* ImageSwapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ImageSwapper.modulemap; sourceTree = "<group>"; };
 		2F0E6634AC64F76D02B66464550C59AD /* Pods-ImageSwapper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageSwapper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3885EF66D0040FAE2258BE1383C7E9C9 /* Pods-ImageSwapper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImageSwapper_Example.modulemap"; sourceTree = "<group>"; };
+		3885EF66D0040FAE2258BE1383C7E9C9 /* Pods-ImageSwapper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ImageSwapper_Example.modulemap"; sourceTree = "<group>"; };
 		4A86745AC2860B9C405322F8058EBE4F /* Pods-ImageSwapper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageSwapper_Example-dummy.m"; sourceTree = "<group>"; };
-		5449E1B87B3EDACA93834E6E590EBF92 /* Pods-ImageSwapper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImageSwapper_Tests.modulemap"; sourceTree = "<group>"; };
-		5B739E9A2654C405BA66060D2C0EE0C8 /* ImageSwaper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageSwaper.swift; path = ImageSwapper/Classes/ImageSwaper.swift; sourceTree = "<group>"; };
+		5449E1B87B3EDACA93834E6E590EBF92 /* Pods-ImageSwapper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ImageSwapper_Tests.modulemap"; sourceTree = "<group>"; };
+		5B739E9A2654C405BA66060D2C0EE0C8 /* ImageSwapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageSwapper.swift; path = ImageSwapper/Classes/ImageSwapper.swift; sourceTree = "<group>"; };
 		60656B12C952FD27F18B074488117674 /* ImageSwapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageSwapper-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		730A1B083702D2BC8EA70ED9EF5D1E53 /* Pods-ImageSwapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageSwapper_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -50,12 +50,12 @@
 		8872BADF36F4B8D2D5E5681130D98546 /* Pods-ImageSwapper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageSwapper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8D06E842D5B983B88B5241CB999F648D /* Pods-ImageSwapper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageSwapper_Tests-resources.sh"; sourceTree = "<group>"; };
 		906CE7FA907956231FA3649BBB36B830 /* Pods-ImageSwapper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageSwapper_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		979038745E4BB36ECC77524A588DE7AF /* ImageSwapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageSwapper-umbrella.h"; sourceTree = "<group>"; };
 		AB600DED7E85EB8E111D30B00BAE864F /* Pods-ImageSwapper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageSwapper_Tests-dummy.m"; sourceTree = "<group>"; };
 		AED4CEF1E0D298D84A7B9B9A759DBE9B /* Pods-ImageSwapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageSwapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C2F7B07D29EE4080C4202DBBA7AE6CCF /* Pods-ImageSwapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageSwapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D6E140C86CE255F1856BC1ED9496166F /* ImageSwapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImageSwapper.framework; path = ImageSwapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E140C86CE255F1856BC1ED9496166F /* ImageSwapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageSwapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0F9903A4C8D4FA07B86D16AA36387A /* ImageSwapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageSwapper.xcconfig; sourceTree = "<group>"; };
 		E3A2D24E2E2EFE7554AE4CBAF7461F5D /* ImageSwapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageSwapper-prefix.pch"; sourceTree = "<group>"; };
 		E6F0FF896B2BE27F4D6252283711BD64 /* Pods-ImageSwapper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageSwapper_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 		7697E72ECF9C77743B18EFD5B156982A /* ImageSwapper */ = {
 			isa = PBXGroup;
 			children = (
-				5B739E9A2654C405BA66060D2C0EE0C8 /* ImageSwaper.swift */,
+				5B739E9A2654C405BA66060D2C0EE0C8 /* ImageSwapper.swift */,
 				2487599E6250BDCA4C69302B2A9C4104 /* Support Files */,
 			);
 			name = ImageSwapper;
@@ -337,7 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F6981D755202BF18FE3B7992C096198 /* ImageSwaper.swift in Sources */,
+				9F6981D755202BF18FE3B7992C096198 /* ImageSwapper.swift in Sources */,
 				8A9AF729F8B5865EDBDA77741906CA67 /* ImageSwapper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
