@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  ImageSwapper
 //
-//  Created by tsarikovskiy on 11/22/2017.
+//  Created by  Serg Tsarikovskiy  on 11/22/2017.
 //  Copyright (c) 2017 tsarikovskiy. All rights reserved.
 //
 

@@ -1,0 +1,6 @@
+framework module ImageSwapper {
+  umbrella header "ImageSwapper-umbrella.h"
+
+  export *
+  module * { export * }
+}

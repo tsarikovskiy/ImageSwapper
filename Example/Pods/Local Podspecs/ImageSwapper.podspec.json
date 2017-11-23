@@ -1,0 +1,23 @@
+{
+  "name": "ImageSwapper",
+  "version": "0.1.0",
+  "summary": "Nice animation for swapping images.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tsarikovskiy/ImageSwapper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Serg Tsarikovskiy": "sergtsarikovskiy@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tsarikovskiy/ImageSwapper.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/s_tsarikovskiy",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ImageSwapper/Classes/**/*"
+}

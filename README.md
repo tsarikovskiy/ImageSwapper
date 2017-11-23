@@ -27,3 +27,4 @@ tsarikovskiy, s.tsarikovskiy@nullgr.com
 ## License
 
 ImageSwapper is available under the MIT license. See the LICENSE file for more info.
+# ImageSwapper
