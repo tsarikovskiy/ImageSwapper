@@ -22,7 +22,7 @@ pod 'ImageSwapper'
 
 ## Author
 
-tsarikovskiy, s.tsarikovskiy@nullgr.com
+Serg Tsarikovskiy, sergtsarikovskiy@gmail.com
 
 ## License
 
