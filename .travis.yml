@@ -11,5 +11,5 @@ xcode_sdk: iphonesimulator11.1
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/ImageSwapper.xcworkspace -scheme ImageSwapper-Example -destination 'platform=iOS' -sdk iphonesimulator11.1 ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/ImageSwapper.xcworkspace -scheme ImageSwapper-Example -destination 'platform=iOS Simulator,name=iPhone 7' -sdk iphonesimulator11.1 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
