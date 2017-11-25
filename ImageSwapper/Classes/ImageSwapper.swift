@@ -1,6 +1,6 @@
 //
 //  ImageSwaper.swift
-//  CircleDropAnimation
+//  ImageSwapper
 //
 //  Created by Serg Tsarikovskiy on 22.11.17.
 //  Copyright © 2017 Serg Tsarikovskiy. All rights reserved.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-class ImageSwapper {
-    class func waterDropSwap(image targetImage: UIImageView, toImage image: UIImage) {
+open class ImageSwapper {
+    open class func waterDrop(image targetImage: UIImageView, toImage image: UIImage) {
         let keyPath = "path"
         CATransaction.begin()
         let maskDiameter = CGFloat(sqrt(powf(Float(targetImage.bounds.width), 2.0) + powf(Float(targetImage.bounds.width), 2.0)))
