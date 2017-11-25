@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F8104C90A8F30B513F7B27764241BCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		341462152AADB49BEB70B47D1EA1A048 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0D79FC359FBFE02D4C56904C863DD5B8 /* ImageSwapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0751F58272831A90E2777A2C759836CF /* ImageSwapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		167B8B64A7EA552CD7B5A0774B71B217 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		2F8104C90A8F30B513F7B27764241BCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		341462152AADB49BEB70B47D1EA1A048 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		4826DEE04D4B318B682D071FE48C385F /* Pods-ImageSwapper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB600DED7E85EB8E111D30B00BAE864F /* Pods-ImageSwapper_Tests-dummy.m */; };
-		5C72655E31E3A76D11405707C1144E3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		8A9AF729F8B5865EDBDA77741906CA67 /* ImageSwapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60656B12C952FD27F18B074488117674 /* ImageSwapper-dummy.m */; };
+		556DC7B2BD267330DE1C764F4FB26C6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		72D38109D5C4B09F4D414537A774B68B /* ImageSwapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB5672EC3303C651043285C774CCC03 /* ImageSwapper-dummy.m */; };
 		9ED8CAFFAB35053AA220B5910E691D60 /* Pods-ImageSwapper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9FE22E4C7AE4CD611B0B7F96EFAFCE0 /* Pods-ImageSwapper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F6981D755202BF18FE3B7992C096198 /* ImageSwapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B739E9A2654C405BA66060D2C0EE0C8 /* ImageSwapper.swift */; };
 		BE1BC3EDD6FEE0D82C1D695707EF90FE /* Pods-ImageSwapper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F0FF896B2BE27F4D6252283711BD64 /* Pods-ImageSwapper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5F1A895A7F4ED34B5CA61654439A6F5 /* ImageSwapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 979038745E4BB36ECC77524A588DE7AF /* ImageSwapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFE0EA412E01ABCA9F3A2811D969ABE3 /* Pods-ImageSwapper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A86745AC2860B9C405322F8058EBE4F /* Pods-ImageSwapper_Example-dummy.m */; };
+		FCCAB90F05AFC0D66C7283B5B5B5B795 /* ImageSwapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26440452788C03637816E45C046491AA /* ImageSwapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,25 +25,24 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F36A955AD0E8829D9B8674C7ABBE1D87;
+			remoteGlobalIDString = 40B4C4E6FA5D920E509334613A295F1C;
 			remoteInfo = ImageSwapper;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01D8FAF86A4C2943C0D8EC02B55BC372 /* Pods-ImageSwapper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageSwapper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		04B664866079E1999B45028BFEA937D0 /* Pods_ImageSwapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageSwapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0529A33F57C06AEBFBD52A7FFC9A9E7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18696C826902807DEF4614BF86DAC578 /* Pods_ImageSwapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageSwapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B664866079E1999B45028BFEA937D0 /* Pods_ImageSwapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageSwapper_Example.framework; path = "Pods-ImageSwapper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0751F58272831A90E2777A2C759836CF /* ImageSwapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageSwapper-umbrella.h"; sourceTree = "<group>"; };
+		18696C826902807DEF4614BF86DAC578 /* Pods_ImageSwapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageSwapper_Tests.framework; path = "Pods-ImageSwapper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FAD65EE38CB34DA3CAB23466A7BDF32 /* Pods-ImageSwapper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageSwapper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		295E71B7AA1B1E7D77164359B10B29CF /* ImageSwapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ImageSwapper.modulemap; sourceTree = "<group>"; };
+		26440452788C03637816E45C046491AA /* ImageSwapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageSwapper.swift; path = ImageSwapper/Classes/ImageSwapper.swift; sourceTree = "<group>"; };
 		2F0E6634AC64F76D02B66464550C59AD /* Pods-ImageSwapper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageSwapper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3885EF66D0040FAE2258BE1383C7E9C9 /* Pods-ImageSwapper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ImageSwapper_Example.modulemap"; sourceTree = "<group>"; };
+		33A2DC325250E3E04964A8BE5024E65F /* ImageSwapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageSwapper.xcconfig; sourceTree = "<group>"; };
+		3885EF66D0040FAE2258BE1383C7E9C9 /* Pods-ImageSwapper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImageSwapper_Example.modulemap"; sourceTree = "<group>"; };
 		4A86745AC2860B9C405322F8058EBE4F /* Pods-ImageSwapper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageSwapper_Example-dummy.m"; sourceTree = "<group>"; };
-		5449E1B87B3EDACA93834E6E590EBF92 /* Pods-ImageSwapper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ImageSwapper_Tests.modulemap"; sourceTree = "<group>"; };
-		5B739E9A2654C405BA66060D2C0EE0C8 /* ImageSwapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageSwapper.swift; path = ImageSwapper/Classes/ImageSwapper.swift; sourceTree = "<group>"; };
-		60656B12C952FD27F18B074488117674 /* ImageSwapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageSwapper-dummy.m"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		53973410271D868EA9A42F00C4638BDF /* ImageSwapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageSwapper-prefix.pch"; sourceTree = "<group>"; };
+		5449E1B87B3EDACA93834E6E590EBF92 /* Pods-ImageSwapper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImageSwapper_Tests.modulemap"; sourceTree = "<group>"; };
 		730A1B083702D2BC8EA70ED9EF5D1E53 /* Pods-ImageSwapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageSwapper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7A006267B87088B0B9E48407EE23F653 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CF20713A576F744A4523B0EC5B1BCBB /* Pods-ImageSwapper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageSwapper_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -50,26 +50,29 @@
 		8872BADF36F4B8D2D5E5681130D98546 /* Pods-ImageSwapper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageSwapper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8D06E842D5B983B88B5241CB999F648D /* Pods-ImageSwapper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageSwapper_Tests-resources.sh"; sourceTree = "<group>"; };
 		906CE7FA907956231FA3649BBB36B830 /* Pods-ImageSwapper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageSwapper_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		979038745E4BB36ECC77524A588DE7AF /* ImageSwapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageSwapper-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A72EC3BE687C9E4086C98DB43DB5E8A3 /* ImageSwapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ImageSwapper.modulemap; sourceTree = "<group>"; };
 		AB600DED7E85EB8E111D30B00BAE864F /* Pods-ImageSwapper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageSwapper_Tests-dummy.m"; sourceTree = "<group>"; };
 		AED4CEF1E0D298D84A7B9B9A759DBE9B /* Pods-ImageSwapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageSwapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BAB5672EC3303C651043285C774CCC03 /* ImageSwapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageSwapper-dummy.m"; sourceTree = "<group>"; };
 		C2F7B07D29EE4080C4202DBBA7AE6CCF /* Pods-ImageSwapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageSwapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D6E140C86CE255F1856BC1ED9496166F /* ImageSwapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageSwapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB0F9903A4C8D4FA07B86D16AA36387A /* ImageSwapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageSwapper.xcconfig; sourceTree = "<group>"; };
-		E3A2D24E2E2EFE7554AE4CBAF7461F5D /* ImageSwapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageSwapper-prefix.pch"; sourceTree = "<group>"; };
+		D6E140C86CE255F1856BC1ED9496166F /* ImageSwapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImageSwapper.framework; path = ImageSwapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E6F0FF896B2BE27F4D6252283711BD64 /* Pods-ImageSwapper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageSwapper_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E9FE22E4C7AE4CD611B0B7F96EFAFCE0 /* Pods-ImageSwapper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageSwapper_Example-umbrella.h"; sourceTree = "<group>"; };
 		EA29BE900C4F198F6A71122B46B1F80B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE1B90F2CC0342D7D25AB1A991B491B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC7967127AA5E327B8EFD0F9600B1814 /* Pods-ImageSwapper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageSwapper_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B1EAB89D44D7F9A6C001F42A94BB62F /* Frameworks */ = {
+		912EE53E53AE9C555E3D74074053F2CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C72655E31E3A76D11405707C1144E3B /* Foundation.framework in Frameworks */,
+				167B8B64A7EA552CD7B5A0774B71B217 /* Foundation.framework in Frameworks */,
+				556DC7B2BD267330DE1C764F4FB26C6D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +95,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D683F6670081A9A7B641A14749DE147 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A72EC3BE687C9E4086C98DB43DB5E8A3 /* ImageSwapper.modulemap */,
+				33A2DC325250E3E04964A8BE5024E65F /* ImageSwapper.xcconfig */,
+				BAB5672EC3303C651043285C774CCC03 /* ImageSwapper-dummy.m */,
+				53973410271D868EA9A42F00C4638BDF /* ImageSwapper-prefix.pch */,
+				0751F58272831A90E2777A2C759836CF /* ImageSwapper-umbrella.h */,
+				FBE1B90F2CC0342D7D25AB1A991B491B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ImageSwapper";
+			sourceTree = "<group>";
+		};
 		125ACC26226846F030B4271108879A02 /* Pods-ImageSwapper_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,33 +127,36 @@
 			path = "Target Support Files/Pods-ImageSwapper_Example";
 			sourceTree = "<group>";
 		};
-		2487599E6250BDCA4C69302B2A9C4104 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				295E71B7AA1B1E7D77164359B10B29CF /* ImageSwapper.modulemap */,
-				DB0F9903A4C8D4FA07B86D16AA36387A /* ImageSwapper.xcconfig */,
-				60656B12C952FD27F18B074488117674 /* ImageSwapper-dummy.m */,
-				E3A2D24E2E2EFE7554AE4CBAF7461F5D /* ImageSwapper-prefix.pch */,
-				979038745E4BB36ECC77524A588DE7AF /* ImageSwapper-umbrella.h */,
-				0529A33F57C06AEBFBD52A7FFC9A9E7C /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ImageSwapper";
-			sourceTree = "<group>";
-		};
 		2B1033F06DD4A77CB9A445FD374ABF79 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7697E72ECF9C77743B18EFD5B156982A /* ImageSwapper */,
+				4EE864DFA9623C0D50BE78B2EEF1EAD2 /* ImageSwapper */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		7697E72ECF9C77743B18EFD5B156982A /* ImageSwapper */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5B739E9A2654C405BA66060D2C0EE0C8 /* ImageSwapper.swift */,
-				2487599E6250BDCA4C69302B2A9C4104 /* Support Files */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4EE864DFA9623C0D50BE78B2EEF1EAD2 /* ImageSwapper */ = {
+			isa = PBXGroup;
+			children = (
+				26440452788C03637816E45C046491AA /* ImageSwapper.swift */,
+				0D683F6670081A9A7B641A14749DE147 /* Support Files */,
 			);
 			name = ImageSwapper;
 			path = ../..;
@@ -147,7 +167,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				2B1033F06DD4A77CB9A445FD374ABF79 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				D479D999C8EA84CE536EE3253755E44A /* Products */,
 				C936DFBD0B8CFDA9B487D6E3771B6C13 /* Targets Support Files */,
 			);
@@ -171,14 +191,6 @@
 			path = "Target Support Files/Pods-ImageSwapper_Tests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C936DFBD0B8CFDA9B487D6E3771B6C13 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,14 +198,6 @@
 				978CE3CF5E520867BCF7B4FE48DF60E3 /* Pods-ImageSwapper_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		D479D999C8EA84CE536EE3253755E44A /* Products */ = {
@@ -209,14 +213,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		04FC7A5AF6EF02997A497ACDE4D28E64 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5F1A895A7F4ED34B5CA61654439A6F5 /* ImageSwapper-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		329CB9E8D8D67B7935E7F9047ABCBDD7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,9 +229,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F3956B7A53481F79F6526698BA74441B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D79FC359FBFE02D4C56904C863DD5B8 /* ImageSwapper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		40B4C4E6FA5D920E509334613A295F1C /* ImageSwapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24528B6C46701B9875A20188E37D0D5 /* Build configuration list for PBXNativeTarget "ImageSwapper" */;
+			buildPhases = (
+				367B2908CAD1AAEF346BBBA6C930370B /* Sources */,
+				912EE53E53AE9C555E3D74074053F2CB /* Frameworks */,
+				F3956B7A53481F79F6526698BA74441B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageSwapper;
+			productName = ImageSwapper;
+			productReference = D6E140C86CE255F1856BC1ED9496166F /* ImageSwapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		D09F7AEBEA4AED63F8DEAE61F0F9D86E /* Pods-ImageSwapper_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39725A7A7F690108DA870D7C8F6A1647 /* Build configuration list for PBXNativeTarget "Pods-ImageSwapper_Tests" */;
@@ -251,23 +272,6 @@
 			name = "Pods-ImageSwapper_Tests";
 			productName = "Pods-ImageSwapper_Tests";
 			productReference = 18696C826902807DEF4614BF86DAC578 /* Pods_ImageSwapper_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F36A955AD0E8829D9B8674C7ABBE1D87 /* ImageSwapper */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F119850FD9591099EDF16FAD083D90DF /* Build configuration list for PBXNativeTarget "ImageSwapper" */;
-			buildPhases = (
-				B38B0DBCB8EE37C671A9D2F186D634B1 /* Sources */,
-				2B1EAB89D44D7F9A6C001F42A94BB62F /* Frameworks */,
-				04FC7A5AF6EF02997A497ACDE4D28E64 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ImageSwapper;
-			productName = ImageSwapper;
-			productReference = D6E140C86CE255F1856BC1ED9496166F /* ImageSwapper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F932B224780B5F933089B712B43BAE54 /* Pods-ImageSwapper_Example */ = {
@@ -309,7 +313,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F36A955AD0E8829D9B8674C7ABBE1D87 /* ImageSwapper */,
+				40B4C4E6FA5D920E509334613A295F1C /* ImageSwapper */,
 				F932B224780B5F933089B712B43BAE54 /* Pods-ImageSwapper_Example */,
 				D09F7AEBEA4AED63F8DEAE61F0F9D86E /* Pods-ImageSwapper_Tests */,
 			);
@@ -317,6 +321,15 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		367B2908CAD1AAEF346BBBA6C930370B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D38109D5C4B09F4D414537A774B68B /* ImageSwapper-dummy.m in Sources */,
+				FCCAB90F05AFC0D66C7283B5B5B5B795 /* ImageSwapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		66A00E70A4E5BC034E7401B40ABF99BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,98 +346,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38B0DBCB8EE37C671A9D2F186D634B1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F6981D755202BF18FE3B7992C096198 /* ImageSwapper.swift in Sources */,
-				8A9AF729F8B5865EDBDA77741906CA67 /* ImageSwapper-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		DDDA74B89A2FD74AD5ED523A7BFC7442 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ImageSwapper;
-			target = F36A955AD0E8829D9B8674C7ABBE1D87 /* ImageSwapper */;
+			target = 40B4C4E6FA5D920E509334613A295F1C /* ImageSwapper */;
 			targetProxy = 0EA01698B90570F6DF5E03D3F5ECCA3A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2A9A0F409BCA0F1CB1200110B24D0FEA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB0F9903A4C8D4FA07B86D16AA36387A /* ImageSwapper.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ImageSwapper/ImageSwapper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImageSwapper/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImageSwapper/ImageSwapper.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ImageSwapper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		697708498D6A93093BFC85AEE10C03F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB0F9903A4C8D4FA07B86D16AA36387A /* ImageSwapper.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ImageSwapper/ImageSwapper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImageSwapper/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImageSwapper/ImageSwapper.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ImageSwapper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8BF4E2D2BB99F54B3E812F90CC0BE3B1 /* Debug */ = {
+		0A6DE885099FB97D26AE2CAED707379C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8352A4A5863848D2B06B5FE3CACC2C4E /* Pods-ImageSwapper_Example.debug.xcconfig */;
 			buildSettings = {
@@ -442,7 +376,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-ImageSwapper_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ImageSwapper_Example/Pods-ImageSwapper_Example.modulemap";
@@ -463,7 +397,43 @@
 			};
 			name = Debug;
 		};
-		9958A27348BC4B00FFF1DC9AFAAF05FD /* Debug */ = {
+		4042EDA26E8289740769BAEB91A7A370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F7B07D29EE4080C4202DBBA7AE6CCF /* Pods-ImageSwapper_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageSwapper_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageSwapper_Tests/Pods-ImageSwapper_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ImageSwapper_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66B0A7CBB6648C79C8EBEC4CEFE95A44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AED4CEF1E0D298D84A7B9B9A759DBE9B /* Pods-ImageSwapper_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -481,7 +451,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-ImageSwapper_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ImageSwapper_Tests/Pods-ImageSwapper_Tests.modulemap";
@@ -499,7 +469,45 @@
 			};
 			name = Debug;
 		};
-		9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */ = {
+		6D3D88825233865B4E8146A7ADE50439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 730A1B083702D2BC8EA70ED9EF5D1E53 /* Pods-ImageSwapper_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageSwapper_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageSwapper_Example/Pods-ImageSwapper_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ImageSwapper_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -539,7 +547,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -548,43 +556,7 @@
 			};
 			name = Debug;
 		};
-		A57A8672662A5E5B53286E8607310CCC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2F7B07D29EE4080C4202DBBA7AE6CCF /* Pods-ImageSwapper_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ImageSwapper_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ImageSwapper_Tests/Pods-ImageSwapper_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ImageSwapper_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -620,7 +592,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -628,9 +600,44 @@
 			};
 			name = Release;
 		};
-		EE488EC5DD1CDF95EADEF55CB6A49796 /* Release */ = {
+		C130E47A6C6901F35BB990E9A722AFD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 730A1B083702D2BC8EA70ED9EF5D1E53 /* Pods-ImageSwapper_Example.release.xcconfig */;
+			baseConfigurationReference = 33A2DC325250E3E04964A8BE5024E65F /* ImageSwapper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ImageSwapper/ImageSwapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageSwapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImageSwapper/ImageSwapper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ImageSwapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5D7C8A56FB82BD883624420F065AC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33A2DC325250E3E04964A8BE5024E65F /* ImageSwapper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -644,20 +651,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ImageSwapper_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageSwapper/ImageSwapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageSwapper/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ImageSwapper_Example/Pods-ImageSwapper_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/ImageSwapper/ImageSwapper.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ImageSwapper_Example;
+				PRODUCT_NAME = ImageSwapper;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -672,8 +676,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */,
-				C03B8870130C98D1B02B59D003687524 /* Release */,
+				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -681,8 +685,8 @@
 		39725A7A7F690108DA870D7C8F6A1647 /* Build configuration list for PBXNativeTarget "Pods-ImageSwapper_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9958A27348BC4B00FFF1DC9AFAAF05FD /* Debug */,
-				A57A8672662A5E5B53286E8607310CCC /* Release */,
+				66B0A7CBB6648C79C8EBEC4CEFE95A44 /* Debug */,
+				4042EDA26E8289740769BAEB91A7A370 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -690,17 +694,17 @@
 		4F309ED7ED7EAE295652853592A29CB1 /* Build configuration list for PBXNativeTarget "Pods-ImageSwapper_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BF4E2D2BB99F54B3E812F90CC0BE3B1 /* Debug */,
-				EE488EC5DD1CDF95EADEF55CB6A49796 /* Release */,
+				0A6DE885099FB97D26AE2CAED707379C /* Debug */,
+				6D3D88825233865B4E8146A7ADE50439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F119850FD9591099EDF16FAD083D90DF /* Build configuration list for PBXNativeTarget "ImageSwapper" */ = {
+		F24528B6C46701B9875A20188E37D0D5 /* Build configuration list for PBXNativeTarget "ImageSwapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				697708498D6A93093BFC85AEE10C03F6 /* Debug */,
-				2A9A0F409BCA0F1CB1200110B24D0FEA /* Release */,
+				C130E47A6C6901F35BB990E9A722AFD3 /* Debug */,
+				C5D7C8A56FB82BD883624420F065AC9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

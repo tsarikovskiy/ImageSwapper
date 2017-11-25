@@ -15,6 +15,9 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		63FAC44DEF288858CFED3ED7 /* Pods_ImageSwapper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ABB6F44DFB3B82985CF0836 /* Pods_ImageSwapper_Tests.framework */; };
 		A057A97E5BC5BA6370A77F20 /* Pods_ImageSwapper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB266138184968A09F059B87 /* Pods_ImageSwapper_Example.framework */; };
+		D581237A1FC991B6009B23AD /* coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = D58123791FC991B6009B23AD /* coffee.png */; };
+		D581237C1FC991BD009B23AD /* beer.png in Resources */ = {isa = PBXBuildFile; fileRef = D581237B1FC991BD009B23AD /* beer.png */; };
+		D581237E1FC9C405009B23AD /* waterDropExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = D581237D1FC9C405009B23AD /* waterDropExample.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		AB266138184968A09F059B87 /* Pods_ImageSwapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageSwapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91E30F5791ED9B9CE14A504 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BAE611D35570649E46EA5C86 /* Pods-ImageSwapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageSwapper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageSwapper_Tests/Pods-ImageSwapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D58123791FC991B6009B23AD /* coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffee.png; sourceTree = "<group>"; };
+		D581237B1FC991BD009B23AD /* beer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beer.png; sourceTree = "<group>"; };
+		D581237D1FC9C405009B23AD /* waterDropExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = waterDropExample.gif; path = ../waterDropExample.gif; sourceTree = "<group>"; };
 		DACF076439B4463CFFE52BFA /* Pods-ImageSwapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageSwapper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageSwapper_Tests/Pods-ImageSwapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E9F714A7AA5BDCE213524331 /* Pods-ImageSwapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageSwapper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageSwapper_Example/Pods-ImageSwapper_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +108,7 @@
 		607FACD21AFB9204008FA782 /* Example for ImageSwapper */ = {
 			isa = PBXGroup;
 			children = (
+				D581237F1FC9C410009B23AD /* Resources */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -146,6 +153,16 @@
 				B91E30F5791ED9B9CE14A504 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		D581237F1FC9C410009B23AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D581237D1FC9C405009B23AD /* waterDropExample.gif */,
+				D581237B1FC991BD009B23AD /* beer.png */,
+				D58123791FC991B6009B23AD /* coffee.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		D92EE2C76AA8B82116319C15 /* Pods */ = {
@@ -250,7 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D581237A1FC991B6009B23AD /* coffee.png in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				D581237E1FC9C405009B23AD /* waterDropExample.gif in Resources */,
+				D581237C1FC991BD009B23AD /* beer.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -545,6 +565,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 226D4X4623;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = ImageSwapper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -553,6 +574,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "87f76953-1e44-4086-8c3b-94d744b5a920";
 				PROVISIONING_PROFILE_SPECIFIER = "Beeline Services";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 3.0;
 			};

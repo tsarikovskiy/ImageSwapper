@@ -7,19 +7,21 @@
 //
 
 import UIKit
+import ImageSwapper
 
 class ViewController: UIViewController {
-
+    // MARK: - Outlets
+    @IBOutlet weak var imageView: UIImageView!
+    
+    // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    // MARK: - Actions
+    @IBAction func swapPressed(_ sender: Any) {
+        ImageSwapper.waterDrop(image: imageView, toImage: #imageLiteral(resourceName: "beer.png"))
     }
-
 }
 
