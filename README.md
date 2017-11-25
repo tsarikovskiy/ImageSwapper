@@ -29,4 +29,4 @@ Stay tuned for new animations.
 
 ## Questions or feedback?
 
-Feel free to [open an issue](https://github.com/tsarikovskiy/ImageSwapper/issues/new), or find me [@s_tsarikovskiy on Twitter](https://twitter.com/johnsundell).
+Feel free to [open an issue](https://github.com/tsarikovskiy/ImageSwapper/issues/new), or find me [@s_tsarikovskiy on Twitter](https://twitter.com/s_tsarikovskiy).
