@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = 'ImageSwapper'
   s.version          = '0.1.1'
   s.summary          = 'Nice animation for swapping images.'
-  s.description      = <<- DESC
+  s.description      = <<-DESC
     Nice animation for swapping images. In progress.
   DESC
   s.homepage         = 'https://github.com/tsarikovskiy/ImageSwapper'
