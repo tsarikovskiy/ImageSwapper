@@ -5,12 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/ImageSwapper.svg?style=flat)](http://cocoapods.org/pods/ImageSwapper)
 [![Platform](https://img.shields.io/cocoapods/p/ImageSwapper.svg?style=flat)](http://cocoapods.org/pods/ImageSwapper)
 
-## Example
-[!][Example](waterDropExample.gif)
+## Examples
+![](Example/waterDropExample.gif)
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+Simply call this method on action button, pass the reference to image view that you want to change and new image:
+```swift
+ImageSwapper.waterDrop(image: imageView, toImage: #imageLiteral(resourceName: "beer.png"))
+```
 
 ## Installation
 
@@ -21,11 +22,11 @@ it, simply add the following line to your Podfile:
 pod 'ImageSwapper'
 ```
 
-## Author
+## Evolution
 
-Serg Tsarikovskiy, sergtsarikovskiy@gmail.com
+Stay tuned for new animations.
 
-## License
 
-ImageSwapper is available under the MIT license. See the LICENSE file for more info.
-# ImageSwapper
+## Questions or feedback?
+
+Feel free to [open an issue](https://github.com/tsarikovskiy/ImageSwapper/issues/new), or find me [@s_tsarikovskiy on Twitter](https://twitter.com/s_tsarikovskiy).
