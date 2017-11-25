@@ -1,6 +1,6 @@
 {
   "name": "ImageSwapper",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "summary": "Nice animation for swapping images.",
   "description": "Nice animation for swapping images. In progress.",
   "homepage": "https://github.com/tsarikovskiy/ImageSwapper",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/tsarikovskiy/ImageSwapper.git",
-    "tag": "0.1.3"
+    "tag": "0.1.4"
   },
   "social_media_url": "https://twitter.com/s_tsarikovskiy",
   "platforms": {

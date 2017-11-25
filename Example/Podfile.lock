@@ -1,5 +1,5 @@
 PODS:
-  - ImageSwapper (0.1.3)
+  - ImageSwapper (0.1.4)
 
 DEPENDENCIES:
   - ImageSwapper (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ImageSwapper: ef58428e69b261dd9e918ff876cfb64307c1069d
+  ImageSwapper: c6e858ab104f5dd114ca69d37d2dc1500e755eb4
 
 PODFILE CHECKSUM: 3c6215c0e01bf91c4846ce9570425ec7dd2e5e7f
 
