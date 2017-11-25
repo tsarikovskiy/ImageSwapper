@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ImageSwapper'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = 'Nice animation for swapping images.'
   s.description      = <<-DESC
     Nice animation for swapping images. In progress.
