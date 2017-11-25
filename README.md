@@ -7,9 +7,11 @@
 
 ## Example
 ![](Example/waterDropExample.gif)
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+Iterate over the files contained in a folder:
+```swift
+ImageSwapper.waterDrop(image: imageView, toImage: #imageLiteral(resourceName: "beer.png"))
+```
 
 ## Installation
 
@@ -19,10 +21,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'ImageSwapper'
 ```
-
-## Author
-
-Serg Tsarikovskiy, sergtsarikovskiy@gmail.com
 
 ## License
 
