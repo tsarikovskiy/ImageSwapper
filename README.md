@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/ImageSwapper.svg?style=flat)](http://cocoapods.org/pods/ImageSwapper)
 
 ## Example
-![](waterDropExample.gif)
+![Example](waterDropExample.gif)
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
