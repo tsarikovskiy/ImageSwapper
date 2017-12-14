@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/ImageSwapper.svg?style=flat)](http://cocoapods.org/pods/ImageSwapper)
 [![License](https://img.shields.io/cocoapods/l/ImageSwapper.svg?style=flat)](http://cocoapods.org/pods/ImageSwapper)
 [![Platform](https://img.shields.io/cocoapods/p/ImageSwapper.svg?style=flat)](http://cocoapods.org/pods/ImageSwapper)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 ## Examples
 ![](Example/waterDropExample.gif)
